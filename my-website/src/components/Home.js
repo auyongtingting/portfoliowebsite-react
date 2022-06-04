@@ -29,7 +29,7 @@ export default function Home() {
                 </MDBCol>
                 <MDBCol size='md' className='col-example'>
                     <div class="text">
-                    <h1>Hi there! I am Au Yong Ting Ting</h1>
+                    <h1>Hi, I am Au Yong Ting Ting!</h1>
                     <h2>A Software Engineer</h2>
                     <DownloadButton className="button"><a className="downloadResume" href={pdf} download="Resume.pdf">Download Resume</a></DownloadButton>
                     <ul>
