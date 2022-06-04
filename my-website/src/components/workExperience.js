@@ -67,8 +67,6 @@ export default function workExperience() {
                         </ul>
                     </span>
 
-                    <br></br>
-
                     <span className="Tech_Box">
                         <ul className="tech">
                             <li className="TechIcons"><FaReact color="white" fontSize="1em" /></li>
@@ -89,8 +87,6 @@ export default function workExperience() {
                             <li className="TechName">NodeJS</li>
                         </ul>
                     </span>
-
-                    <br></br>
 
                     <span className="Tech_Box">
                         <ul className="tech">
@@ -249,8 +245,6 @@ export default function workExperience() {
                         </ul>
                     </span>
 
-                    <br></br>
-
                     <span className="Tech_Box">
                         <ul className="tech">
                             <li className="TechIcons"><FaBootstrap color="white" fontSize="1em" /></li>
@@ -297,8 +291,6 @@ export default function workExperience() {
                           <li className="TechName">WordPress</li>
                       </ul>
                   </span>
-
-                  <br></br>
 
                   <span className="Tech_Box">
                       <ul className="tech">
