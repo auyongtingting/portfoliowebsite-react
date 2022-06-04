@@ -67,6 +67,13 @@ export default function workExperience() {
                         </ul>
                     </span>
 
+                    <span className="Tech_Box">
+                        <ul className="tech">
+                            <li className="TechIcons"><FaReact color="white" fontSize="1em" /></li>
+                            <li className="TechName">React</li>
+                        </ul>
+                    </span>
+
                     <br></br>
 
                     <span className="Tech_Box">
@@ -76,12 +83,23 @@ export default function workExperience() {
                         </ul>
                     </span>
 
+
                     <span className="Tech_Box">
                         <ul className="tech">
-                            <li className="TechIcons"><SiPhp color="white" fontSize="1.5em" /></li>
-                            <li className="TechName">PHP</li>
+                            <li className="TechIcons"><FaNodeJs color="white" fontSize="1em" /></li>
+                            <li className="TechName">NodeJS</li>
                         </ul>
                     </span>
+
+                    <span className="Tech_Box">
+                        <ul className="tech">
+                            <li className="TechIcons"><SiMongodb color="white" fontSize="1em" /></li>
+                            <li className="TechName">Mongodb</li>
+                        </ul>
+                    </span>
+
+
+
                 </Card.Body>
               </Card>
               </MDBCol>
