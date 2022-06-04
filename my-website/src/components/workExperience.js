@@ -8,10 +8,10 @@ import "../styles/home.css"
 
 // Icons
 import {SiAdobephotoshop, SiCss3, SiPhp, SiMongodb, SiJavascript, SiPostgresql, SiKubernetes} from "react-icons/si"
-import {IoLogoWordpress} from "react-icons/io";
+import {IoLogoWordpress} from "react-icons/io"
 import {FaGithub, Falinkedin, FaHtml5, FaStripeS, FaBootstrap, FaAws, FaNodeJs, FaReact, FaDocker, FaPython, FaJoomla} from "react-icons/fa"
-import {GrMysql} from "react-icons/gr";
-import {AiFillCheckCircle} from "react-icons/ai";
+import {GrMysql} from "react-icons/gr"
+import {AiFillCheckCircle} from "react-icons/ai"
 import {FiGitlab} from 'react-icons/fi'
 
 export default function workExperience() {
@@ -67,6 +67,8 @@ export default function workExperience() {
                         </ul>
                     </span>
 
+                    <br></br>
+
                     <span className="Tech_Box">
                         <ul className="tech">
                             <li className="TechIcons"><FaReact color="white" fontSize="1em" /></li>
@@ -74,22 +76,21 @@ export default function workExperience() {
                         </ul>
                     </span>
 
-                    <br></br>
-
                     <span className="Tech_Box">
                         <ul className="tech">
                             <li className="TechIcons"><FaBootstrap color="white" fontSize="1em" /></li>
                             <li className="TechName">Bootstrap</li>
                         </ul>
                     </span>
-
-
+                    
                     <span className="Tech_Box">
                         <ul className="tech">
                             <li className="TechIcons"><FaNodeJs color="white" fontSize="1em" /></li>
                             <li className="TechName">NodeJS</li>
                         </ul>
                     </span>
+
+                    <br></br>
 
                     <span className="Tech_Box">
                         <ul className="tech">
@@ -98,7 +99,12 @@ export default function workExperience() {
                         </ul>
                     </span>
 
-
+                    <span className="Tech_Box">
+                        <ul className="tech">
+                            <li className="TechIcons"><FiGitlab color="white" fontSize="1em" /></li>
+                            <li className="TechName">Gitlab</li>
+                        </ul>
+                    </span>
 
                 </Card.Body>
               </Card>
