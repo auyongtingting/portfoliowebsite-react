@@ -122,39 +122,27 @@ ul.checkmark li:after {
     padding: 0;
 }
 
-.TechIcons {
-    display: inline-block;
-    vertical-align: 2.2px;
-    color: #5476B9;
-}
-
-.TechName {
-    padding: 13px;
-    display: inline-block;
-    font-size: 15px;
-    color: white;
-    vertical-align: 2.5px;
-    padding-left: 5px;
-    padding-bottom: 3px;
-}
-
-.Tech_Box {
-    left: 50%;
-    background-color: #5476B9;
-    border-radius: 10px;
-    padding-left: 10px;
-    margin-right: 3px;
-    padding-top: 7px;
-    padding-bottom: 5px;
-    text-align: center; 
-}
-
 .Technologies {
     font-weight: bold;
     color: #233455;
     font-size: 20px;
-}
+} 
 
 .rowEducation {
     width: 100%;
+}
+
+.box-content { 
+    background-color: #5476B9;
+    color: #fff;
+    float: left;
+    border-radius: 10px;
+    height: 50%;
+    width: auto;
+    padding: 2px;
+    margin: 4px;
+}
+
+.techstack {
+    margin: 10px;
 }
