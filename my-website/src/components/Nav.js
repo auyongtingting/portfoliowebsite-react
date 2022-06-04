@@ -1,6 +1,8 @@
 import { useState } from "react"
 import "../styles/navbar.css"
 
+import {GiHamburgerMenu} from "react-icons/gi"
+
 export default function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false)
 
@@ -15,7 +17,7 @@ export default function Navbar() {
           setIsNavExpanded(!isNavExpanded)
         }}
       >
-        {/* hamburger svg code... */}
+        <GiHamburgerMenu className="hamburgerIcon"/>
       </button>
       <div className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
         <ul>
