@@ -1,5 +1,5 @@
 import { MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
-import DownloadButton from '../components/resumeBtn.js'
+import DownloadButton from '../components/resumeBtn'
 import profilePicture from '../images/profilepic.jpeg'
 import pdf from '../resume/AuYongTingTing_Resume.pdf'
 // Icons
