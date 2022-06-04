@@ -1,15 +1,17 @@
-import { useState } from "react"
+import { React, useState } from "react"
+import { MDBCol, MDBRow, MDBContainer } from 'mdb-react-ui-kit'
+
+// styling
 import "../styles/styles.css"
 import "../styles/home.css"
-import DownloadButton from '../components/resumeBtn.js'
 
+// materials 
+import DownloadButton from '../components/resumeBtn.js'
 import profilePicture from '../images/profilepic.jpeg'
 import pdf from '../resume/AuYongTingTing_Resume.pdf'
 
+//icons
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-
-import React from "react"
-import { MDBCol, MDBRow, MDBContainer } from 'mdb-react-ui-kit'
 
 export default function Home() {
 
@@ -38,8 +40,6 @@ export default function Home() {
                 </MDBCol>
             </MDBRow>
         </MDBContainer>
-
-
         <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
     </div>
   );
