@@ -1,6 +1,6 @@
 // components
-import Navbar from "./components/Nav"
-import Home from "./components/Home"
+import Navbar from "./components/Nav.js"
+import Home from "./components/Home.js"
 import "./styles/navbar.css"
 
 function App() {
