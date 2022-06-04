@@ -1,11 +1,15 @@
 import { useState } from "react"
-import "../styles/navbar.css"
+import "../styles/styles.css"
+import "../styles/home.css"
 import DownloadButton from '../components/resumeBtn.js'
 
 import profilePicture from '../images/profilepic.jpeg'
 import pdf from '../resume/AuYongTingTing_Resume.pdf'
 
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
+
+import React from "react"
+import { MDBCol, MDBRow, MDBContainer } from 'mdb-react-ui-kit'
 
 export default function Home() {
 
@@ -16,18 +20,24 @@ export default function Home() {
 
   return (
     <div id = "home">
-
-            <img src={profilePicture}/>
-
-            <div class="text">
-                <h1>Hi there! I am Au Yong Ting Ting</h1>
-                <h2>A Software Engineer</h2>
-                <DownloadButton className="button"><a className="downloadResume" href={pdf} download="Resume.pdf">Download Resume</a></DownloadButton>
-                <ul>
-                    <li className="IntroductionIcons"><FaLinkedin color="#5476B9" fontSize="1.5em"  onClick={()=>openInNewTab("https://www.linkedin.com/in/auyongtingting/")}/></li>
-                    <li className="IntroductionIcons"><FaGithub color="#5476B9" fontSize="1.5em" onClick={()=>openInNewTab("https://github.com/auyongtingting")}/></li>
-                </ul>             
-            </div>
+        <MDBContainer>
+            <MDBRow>
+                <MDBCol size='md' className='col-example'>
+                    <img src={profilePicture}/>
+                </MDBCol>
+                <MDBCol size='md' className='col-example'>
+                    <div class="text">
+                    <h1>Hi there! I am Au Yong Ting Ting</h1>
+                    <h2>A Software Engineer</h2>
+                    <DownloadButton className="button"><a className="downloadResume" href={pdf} download="Resume.pdf">Download Resume</a></DownloadButton>
+                    <ul>
+                        <li className="IntroductionIcons"><FaLinkedin color="#5476B9" fontSize="1.5em"  onClick={()=>openInNewTab("https://www.linkedin.com/in/auyongtingting/")}/></li>
+                        <li className="IntroductionIcons"><FaGithub color="#5476B9" fontSize="1.5em" onClick={()=>openInNewTab("https://github.com/auyongtingting")}/></li>
+                    </ul>             
+                    </div>
+                </MDBCol>
+            </MDBRow>
+        </MDBContainer>
 
 
         <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
