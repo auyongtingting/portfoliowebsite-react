@@ -28,80 +28,81 @@ export default function workExperience() {
               <MDBCol size='lg-4' className='col-example'>
               <Card className = "experienceCard">
                 <Card.Body>
-                  <Card.Title className="rolePosition" >Software Engineer Intern</Card.Title>
-                  <Card.Subtitle className="location">
-                    Affinidi | Singapore
-                  </Card.Subtitle>
-                  <Card.Subtitle className="duration">
-                    May 2022 - Aug 2022 (Ongoing)
-                  </Card.Subtitle>
-                  <hr></hr>
-                  <Card.Text>
-                    <ul class="checkmark">
-                        <li>Developed self-sovereign identity (SSI) solutions, empowering individuals and organizations with control of their data</li>
-                        <li>Worked alongside top engineers to gain invaluable insights on scalable and high-performance software platforms</li>
-                        <li>Adopted Agile scrum methodology with weekly sprints</li>
-                    </ul>
-                  </Card.Text>
-                  <span className="Technologies">Technologies Utilised</span>
-                    <br></br>
-
-                    <span className="Tech_Box">
-                        <ul className="tech">
-                            <li className="TechIcons"><SiJavascript color="white" fontSize="0.8em" /></li>
-                            <li className="TechName">JavaScript</li>
+                    <Card.Title className="rolePosition" >Software Engineer Intern</Card.Title>
+                    <Card.Subtitle className="location">
+                        Affinidi | Singapore
+                    </Card.Subtitle>
+                    <Card.Subtitle className="duration">
+                        May 2022 - Aug 2022 (Ongoing)
+                    </Card.Subtitle>
+                    <hr></hr>
+                    <Card.Text>
+                        <ul class="checkmark">
+                            <li>Developed self-sovereign identity (SSI) solutions, empowering individuals and organizations with control of their data</li>
+                            <li>Worked alongside top engineers to gain invaluable insights on scalable and high-performance software platforms</li>
+                            <li>Adopted Agile scrum methodology with weekly sprints</li>
                         </ul>
-                    </span>
+                    </Card.Text>
+                    <Card.Text>
+                    <span className="Technologies">Technologies Utilised</span>
+                        <br></br>
 
-                    <span className="Tech_Box">
-                        <ul className="tech">
-                            <li className="TechIcons"><FaHtml5 color="white" fontSize="1em" /></li>
-                            <li className="TechName">HTML</li>
-                        </ul>
-                    </span>
+                        <span className="Tech_Box">
+                            <ul className="tech">
+                                <li className="TechIcons"><SiJavascript color="white" fontSize="0.8em" /></li>
+                                <li className="TechName">JavaScript</li>
+                            </ul>
+                        </span>
 
-                    <span className="Tech_Box">
-                        <ul className="tech">
-                            <li className="TechIcons"><SiCss3 color="white" fontSize="1em" /></li>
-                            <li className="TechName">CSS</li>
-                        </ul>
-                    </span>
+                        <span className="Tech_Box">
+                            <ul className="tech">
+                                <li className="TechIcons"><FaHtml5 color="white" fontSize="1em" /></li>
+                                <li className="TechName">HTML</li>
+                            </ul>
+                        </span>
 
-                    <span className="Tech_Box">
-                        <ul className="tech">
-                            <li className="TechIcons"><FaReact color="white" fontSize="1em" /></li>
-                            <li className="TechName">React</li>
-                        </ul>
-                    </span>
+                        <span className="Tech_Box">
+                            <ul className="tech">
+                                <li className="TechIcons"><SiCss3 color="white" fontSize="1em" /></li>
+                                <li className="TechName">CSS</li>
+                            </ul>
+                        </span>
 
-                    <span className="Tech_Box">
-                        <ul className="tech">
-                            <li className="TechIcons"><FaBootstrap color="white" fontSize="1em" /></li>
-                            <li className="TechName">Bootstrap</li>
-                        </ul>
-                    </span>
-                    
-                    <span className="Tech_Box">
-                        <ul className="tech">
-                            <li className="TechIcons"><FaNodeJs color="white" fontSize="1em" /></li>
-                            <li className="TechName">NodeJS</li>
-                        </ul>
-                    </span>
+                        <span className="Tech_Box">
+                            <ul className="tech">
+                                <li className="TechIcons"><FaReact color="white" fontSize="1em" /></li>
+                                <li className="TechName">React</li>
+                            </ul>
+                        </span>
 
-                    <span className="Tech_Box">
-                        <ul className="tech">
-                            <li className="TechIcons"><SiMongodb color="white" fontSize="1em" /></li>
-                            <li className="TechName">Mongodb</li>
-                        </ul>
-                    </span>
+                        <span className="Tech_Box">
+                            <ul className="tech">
+                                <li className="TechIcons"><FaBootstrap color="white" fontSize="1em" /></li>
+                                <li className="TechName">Bootstrap</li>
+                            </ul>
+                        </span>
+                        
+                        <span className="Tech_Box">
+                            <ul className="tech">
+                                <li className="TechIcons"><FaNodeJs color="white" fontSize="1em" /></li>
+                                <li className="TechName">NodeJS</li>
+                            </ul>
+                        </span>
 
-                    <span className="Tech_Box">
-                        <ul className="tech">
-                            <li className="TechIcons"><FiGitlab color="white" fontSize="1em" /></li>
-                            <li className="TechName">Gitlab</li>
-                        </ul>
-                    </span>
+                        <span className="Tech_Box">
+                            <ul className="tech">
+                                <li className="TechIcons"><SiMongodb color="white" fontSize="1em" /></li>
+                                <li className="TechName">Mongodb</li>
+                            </ul>
+                        </span>
 
+                        <span className="Tech_Box">
+                            <ul className="tech">
+                                <li className="TechIcons"><FiGitlab color="white" fontSize="1em" /></li>
+                                <li className="TechName">Gitlab</li>
+                            </ul>
+                        </span>
+                    </Card.Text>
                 </Card.Body>
               </Card>
               </MDBCol>
