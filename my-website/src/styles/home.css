@@ -1,0 +1,160 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+img {
+    max-width: 100%;
+    border-radius:50%;
+}
+
+.image {
+    flex-basis: 40%
+}
+
+.text {
+    text-align: center;
+    padding-top: 15%; 
+    color: #5476B9; 
+}
+
+#home {
+    padding-top: 10%;
+}
+
+.downloadResume {
+    color: #fff;
+    text-decoration: none; 
+}
+
+.IntroductionIcons {
+    display: inline-block;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+/* Work Experience */
+
+.SectionTitle  {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: -30px;
+}
+
+.briefcase {
+    vertical-align: 5px;
+}
+
+.experienceCard {
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+.rowExperience {
+    justify-content: center;
+}
+
+.workExperience {
+    background-color: #5476B9; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.rolePosition {
+    font-weight: bold;
+}
+
+.location {
+    padding-bottom: 5px;
+}
+
+.checkmark li {
+    font-size: 15px; 
+    list-style-type: none; 
+    margin-bottom: 0.5em; 
+    padding: 0.1em 0 0 0.5em; 
+    position: relative; 
+    color: #233455;
+}
+
+.checkmark li:before { 
+    content: " "; 
+    display: block;
+    border: solid 0.8em #5476B9;
+    border-radius: .8em;
+    height: 0;
+    width: 0;
+    position: absolute; 
+    left: -2em;
+    top: 40%; 
+    margin-top: -0.5em;
+}
+
+ul.checkmark li:after {
+    content: " ";
+    display: block;
+    width: 0.4em; 
+    height: 0.7em;
+    border: solid white;
+    border-width: 0 0.2em 0.2em 0; 
+    position: absolute;
+    left: -1.35em;
+    top: 40%;
+    margin-top: -0.2em;
+    -webkit-transform: rotate(45deg); 
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.duration {
+    padding-bottom: 2px;
+    text-underline-offset: 7px;
+}
+
+.tech {
+    display: inline;
+    padding: 0;
+}
+
+.TechIcons {
+    display: inline-block;
+    vertical-align: 2.2px;
+    color: #5476B9;
+}
+
+.TechName {
+    padding: 13px;
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    vertical-align: 2.5px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+
+.Tech_Box {
+    left: 50%;
+    background-color: #5476B9;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-right: 3px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    text-align: center; 
+}
+
+.Technologies {
+    font-weight: bold;
+    color: #233455;
+    font-size: 20px;
+}
+
+.rowEducation {
+    width: 100%;
+}
