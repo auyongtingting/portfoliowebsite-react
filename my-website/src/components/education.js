@@ -2,6 +2,8 @@ import { React } from "react"
 import { MDBCol, MDBRow, MDBContainer } from 'mdb-react-ui-kit'
 import { Card } from "react-bootstrap"
 
+import {GiGraduateCap, GiDiploma} from "react-icons/gi"
+
 // styling
 import "../styles/styles.css"
 import "../styles/education.css"
@@ -21,7 +23,9 @@ export default function Education() {
 
                     <Card className = "educationCard">
                         <Card.Body>
-                            <Card.Title className="rolePosition" >Bachelor of Science (Information Systems)</Card.Title>
+                            <Card.Title className="rolePosition" >
+                                <GiGraduateCap fontSize="1em" /> Bachelor of Science (Information Systems)
+                            </Card.Title>
                             <Card.Subtitle className="location">
                                 SINGAPORE MANAGEMENT UNIVERSITY
                             </Card.Subtitle>
@@ -29,7 +33,9 @@ export default function Education() {
                                 From 2019 to 2023 (Present)
                             </Card.Subtitle>
                             <hr></hr>
-                            <Card.Title className="rolePosition" >Diploma in Business Information and Technology</Card.Title>
+                            <Card.Title className="rolePosition" >
+                                <GiDiploma fontSize="1em" /> Diploma in Business Information and Technology
+                            </Card.Title>
                             <Card.Subtitle className="location">
                                 TEMASEK POLYTECHNIC
                             </Card.Subtitle>
