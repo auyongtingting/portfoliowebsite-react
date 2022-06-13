@@ -18,7 +18,7 @@
 
 .educationCard {
     border-radius: 20px;
-    width: 400px;
+    width: 380px;
     box-shadow: 5px 5px 5px lightgray;
     border-color: #FFF;
     margin: 0 auto; /* Added */
@@ -29,7 +29,7 @@
 .institution {
     font-weight: bolder;
     color:#5476B9;
-    font-size: 25px;
+    font-size: 21px;
 }
 
 .qualification {
