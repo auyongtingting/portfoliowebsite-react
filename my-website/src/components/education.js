@@ -6,7 +6,6 @@ import {GiGraduateCap, GiDiploma} from "react-icons/gi"
 import {FaGithub, Falinkedin, FaHtml5, FaStripeS, FaBootstrap, FaAws, FaNodeJs, FaReact, FaDocker, FaPython, FaJoomla} from "react-icons/fa"
 
 // styling
-import "../styles/styles.css"
 import "../styles/education.css"
 
 export default function Education() {
