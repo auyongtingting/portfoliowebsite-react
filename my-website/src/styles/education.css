@@ -17,13 +17,10 @@
 }
 
 .educationCard {
-    margin-bottom: 15px;
     border-radius: 20px;
-    width: 500px;
-    margin: 20px; 
+    width: 450px;
     box-shadow: 5px 5px 5px lightgray;
     border-color: #FFF;
-    align-items: center;
     margin: 0 auto; /* Added */
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
