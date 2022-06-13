@@ -1,10 +1,11 @@
-import { React, useState } from "react"
+import { React} from "react"
 import { MDBCol, MDBRow, MDBContainer } from 'mdb-react-ui-kit'
 import { Card } from "react-bootstrap"
 
 // styling
 import "../styles/styles.css"
 import "../styles/home.css"
+import "../styles/workexperience.css"
 
 // Icons
 import {SiAdobephotoshop, SiCss3, SiPhp, SiMongodb, SiJavascript, SiPostgresql, SiKubernetes} from "react-icons/si"
@@ -16,9 +17,7 @@ import {FiGitlab} from 'react-icons/fi'
 export default function workExperience() {
 
   return (
-    <div id = "workexperience" className = "workExperience">
-    
-        <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+    <div id = "workexperience" className = "workExperienceSection">
         <div className="SectionTitle">
             <ion-icon name="briefcase" color="white"></ion-icon>
             <span className="briefcase">Work Experience</span>
@@ -26,7 +25,7 @@ export default function workExperience() {
 
         <MDBContainer>
             <MDBRow className="rowExperience">
-                <MDBCol size='lg-4' className='col-example'>
+                <MDBCol size='md-4' className='col-example'>
                     <Card className = "experienceCard">
                         <Card.Body>
                             <Card.Title className="rolePosition" >Software Engineer Intern</Card.Title>
@@ -92,7 +91,7 @@ export default function workExperience() {
                     </Card>
                 </MDBCol>
 
-                <MDBCol size='lg-4' className='col-example'>
+                <MDBCol size='md-4' className='col-example'>
                     <Card className = "experienceCard">
                         <Card.Body>
                             <Card.Title className="rolePosition">Regional Projects and Data Analytics Intern</Card.Title>
