@@ -13,9 +13,9 @@ export default function Education() {
   return (
     <div id = "education" className = "educationSection">
         
-        <MDBContainer>
+        <MDBContainer className="test">
             <MDBRow className="rowExperience">
-                <MDBCol size='md-6' className='col-education'>
+                <MDBCol size='md-4' className='col-education'>
                     <div className="titleEducation">
                         <ion-icon name="school"></ion-icon>
                         <span className="education">Education</span>
@@ -50,7 +50,9 @@ export default function Education() {
                     </Card>
                 </MDBCol>
 
-                <MDBCol size='md-6' className='col-skill'>
+                <MDBCol size='md-4' className='col-education'></MDBCol>
+
+                <MDBCol size='md-4' className='col-skill'>
                     <div className="titleEducation">
                         <ion-icon name="code-working-outline"></ion-icon>
                         <span className="education">Skills</span>
