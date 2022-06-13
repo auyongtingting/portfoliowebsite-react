@@ -1,7 +1,7 @@
 .container {
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
   }
   
 img {
@@ -139,4 +139,12 @@ ul.checkmark li:after {
 
 .techstack {
     margin: 10px;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+h2 {
+    color: #415f9a;
 }

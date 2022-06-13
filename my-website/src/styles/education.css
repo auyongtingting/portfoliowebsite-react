@@ -7,13 +7,13 @@
     color: #5476B9; 
     text-align: center;
     font-size: 30px;
-    font-weight: bold;
     margin-bottom: 10px;
     margin-top: -30px;
 }
 
 .education {
     vertical-align: 5px;
+    font-weight: 900;
 }
 
 .educationCard {
@@ -21,4 +21,71 @@
     border-radius: 20px;
     width: 500px;
     margin: 20px; 
+    box-shadow: 5px 5px 5px lightgray;
+    border-color: #FFF;
+    align-items: center;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+.institution {
+    font-weight: bolder;
+    color:#5476B9;
+    font-size: 25px;
+}
+
+.qualification {
+    padding-bottom: 5px;
+    color:#20396c;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.techbox-content {
+    background-color: #5476B9;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #5476B9;
+    height: 80%;
+    width: 180px;
+    padding: 5px;
+    margin: 4px;
+    margin-right: 5px;
+    box-shadow: 5px 5px #89a4d9;
+}
+
+.techCard { 
+    margin-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 0px;
+    border-color: #FFF;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    
+}
+
+.skills {
+    display: grid;
+    height: 400px;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 5px;
+}
+
+.skillStack {
+    font-size: 20px;
+}
+
+.col-education {
+    margin-bottom: 50px;
+    align-content: center;
 }

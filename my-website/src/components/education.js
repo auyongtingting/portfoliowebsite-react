@@ -3,6 +3,7 @@ import { MDBCol, MDBRow, MDBContainer } from 'mdb-react-ui-kit'
 import { Card } from "react-bootstrap"
 
 import {GiGraduateCap, GiDiploma} from "react-icons/gi"
+import {FaGithub, Falinkedin, FaHtml5, FaStripeS, FaBootstrap, FaAws, FaNodeJs, FaReact, FaDocker, FaPython, FaJoomla} from "react-icons/fa"
 
 // styling
 import "../styles/styles.css"
@@ -15,7 +16,7 @@ export default function Education() {
         
         <MDBContainer>
             <MDBRow className="rowExperience">
-                <MDBCol size='lg-6' className='col-education'>
+                <MDBCol size='md-6' className='col-education'>
                     <div className="titleEducation">
                         <ion-icon name="school"></ion-icon>
                         <span className="education">Education</span>
@@ -23,21 +24,25 @@ export default function Education() {
 
                     <Card className = "educationCard">
                         <Card.Body>
-                            <Card.Title className="rolePosition" >
-                                <GiGraduateCap fontSize="1em" /> Bachelor of Science (Information Systems)
+                            <Card.Title className="institution" >
+                                <GiGraduateCap fontSize="1em" />  Singapore Management University
                             </Card.Title>
-                            <Card.Subtitle className="location">
-                                SINGAPORE MANAGEMENT UNIVERSITY
+                            <Card.Subtitle className="qualification">
+                                Bachelor of Science (Information Systems)
                             </Card.Subtitle>
                             <Card.Subtitle className="duration">
                                 From 2019 to 2023 (Present)
                             </Card.Subtitle>
-                            <hr></hr>
-                            <Card.Title className="rolePosition" >
-                                <GiDiploma fontSize="1em" /> Diploma in Business Information and Technology
+                        </Card.Body>
+                    </Card>
+
+                    <Card className = "educationCard">
+                        <Card.Body>
+                            <Card.Title className="institution" >
+                                <GiDiploma fontSize="1em" /> Temasek Polytechnic
                             </Card.Title>
-                            <Card.Subtitle className="location">
-                                TEMASEK POLYTECHNIC
+                            <Card.Subtitle className="qualification">
+                                Diploma in Business Information and Technology
                             </Card.Subtitle>
                             <Card.Subtitle className="duration">
                                 From 2015 to 2019
@@ -46,32 +51,84 @@ export default function Education() {
                     </Card>
                 </MDBCol>
 
-                <MDBCol size='lg-6' className='col-skill'>
+                <MDBCol size='md-6' className='col-skill'>
                     <div className="titleEducation">
                         <ion-icon name="code-working-outline"></ion-icon>
                         <span className="education">Skills</span>
                     </div>
-                    <Card className = "educationCard">
-                        <Card.Body>
-                            <Card.Title className="rolePosition" >Skills</Card.Title>
-                            <Card.Subtitle className="location">
-                                Affinidi | Singapore
-                            </Card.Subtitle>
-                            <Card.Subtitle className="duration">
-                                May 2022 - Aug 2022 (Ongoing)
-                            </Card.Subtitle>
-                            <hr></hr>
-                            <Card.Text>
-                        
-                            </Card.Text>
-                            <Card.Text>
-                                Hello world
-                            </Card.Text>
+                    <Card className = "techCard">
+                        <Card.Body className="skills">
+                            <div class="techbox-content" className="techbox-content">
+                                <span className="skillStack">
+                                    <FaHtml5 color="white" fontSize="1.5em" /> HTML
+                                </span>
+                            </div>
+                            <div class="techbox-content" className="techbox-content">
+                                <span className="skillStack">
+                                    <FaHtml5 color="white" fontSize="1.5em" /> CSS
+                                </span>
+                            </div>
+                            <div class="techbox-content" className="techbox-content">
+                                <span className="skillStack">
+                                    <FaHtml5 color="white" fontSize="1.5em" /> Bootstrap
+                                </span>
+                            </div>
+                            <div class="techbox-content" className="techbox-content">
+                                <span className="skillStack">
+                                    <FaHtml5 color="white" fontSize="1.5em" /> React
+                                </span>
+                            </div>
+                            <div class="techbox-content" className="techbox-content">
+                                <span className="skillStack">
+                                    <FaHtml5 color="white" fontSize="1.5em" /> Figma
+                                </span>
+                            </div>
+                            <div class="techbox-content" className="techbox-content">
+                                <span className="skillStack">
+                                    <FaHtml5 color="white" fontSize="1.5em" /> PHP
+                                </span>
+                            </div>
+                            <div class="techbox-content" className="techbox-content">
+                                <span className="skillStack">
+                                    <FaHtml5 color="white" fontSize="1.5em" /> JavaScript
+                                </span>
+                            </div>
+                            <div class="techbox-content" className="techbox-content">
+                                <span className="skillStack">
+                                    <FaHtml5 color="white" fontSize="1.5em" /> Python
+                                </span>
+                            </div>
+                            <div class="techbox-content" className="techbox-content">
+                                <span className="skillStack">
+                                    <FaHtml5 color="white" fontSize="1.5em" /> R
+                                </span>
+                            </div>
+                            <div class="techbox-content" className="techbox-content">
+                                <span className="skillStack">
+                                    <FaHtml5 color="white" fontSize="1.5em" /> MySQL
+                                </span>
+                            </div>
+                            <div class="techbox-content" className="techbox-content">
+                                <span className="skillStack">
+                                    <FaHtml5 color="white" fontSize="1.5em" /> GitHub
+                                </span>
+                            </div>
+                            <div class="techbox-content" className="techbox-content">
+                                <span className="skillStack">
+                                    <FaHtml5 color="white" fontSize="1.5em" /> GitLab
+                                </span>
+                            </div>
+                            <div class="techbox-content" className="techbox-content">
+                                <span className="skillStack">
+                                    <FaHtml5 color="white" fontSize="1.5em" /> Jira
+                                </span>
+                            </div>
                         </Card.Body>
                     </Card>
                 </MDBCol>
             </MDBRow>
         </MDBContainer>
+        
     </div>
   );
 }
