@@ -16,11 +16,12 @@ export default function Education() {
         <MDBContainer className="test">
             <MDBRow className="rowExperience">
                 <MDBCol size='md-4' className='col-education'>
-                    <div className="titleEducation">
-                        <ion-icon name="school"></ion-icon>
-                        <span className="education">Education</span>
-                    </div>
-
+                    <Card.Title>
+                        <div className="titleEducation">
+                            <ion-icon name="school"></ion-icon>
+                            <span className="education">Education</span>
+                        </div>
+                    </Card.Title>
                     <Card className = "educationCard">
                         <Card.Body>
                             <Card.Title className="institution" >
@@ -61,67 +62,67 @@ export default function Education() {
                         <Card.Body className="skills">
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1.5em" /> HTML
+                                    <FaHtml5 color="white" fontSize="1em" /> HTML
                                 </span>
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1.5em" /> CSS
+                                    <FaHtml5 color="white" fontSize="1em" /> CSS
                                 </span>
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1.5em" /> Bootstrap
+                                    <FaHtml5 color="white" fontSize="1em" /> Bootstrap
                                 </span>
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1.5em" /> React
+                                    <FaHtml5 color="white" fontSize="1em" /> React
                                 </span>
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1.5em" /> Figma
+                                    <FaHtml5 color="white" fontSize="1em" /> Figma
                                 </span>
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1.5em" /> PHP
+                                    <FaHtml5 color="white" fontSize="1em" /> PHP
                                 </span>
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1.5em" /> JavaScript
+                                    <FaHtml5 color="white" fontSize="1em" /> JavaScript
                                 </span>
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1.5em" /> Python
+                                    <FaHtml5 color="white" fontSize="1em" /> Python
                                 </span>
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1.5em" /> R
+                                    <FaHtml5 color="white" fontSize="1em" /> R
                                 </span>
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1.5em" /> MySQL
+                                    <FaHtml5 color="white" fontSize="1em" /> MySQL
                                 </span>
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1.5em" /> GitHub
+                                    <FaHtml5 color="white" fontSize="1em" /> GitHub
                                 </span>
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1.5em" /> GitLab
+                                    <FaHtml5 color="white" fontSize="1em" /> GitLab
                                 </span>
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1.5em" /> Jira
+                                    <FaHtml5 color="white" fontSize="1em" /> Jira
                                 </span>
                             </div>
                         </Card.Body>
