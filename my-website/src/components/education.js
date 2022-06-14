@@ -51,7 +51,7 @@ export default function Education() {
                     </Card>
                 </MDBCol>
 
-                <MDBCol size='md-4' className='col-education'></MDBCol>
+                <MDBCol size='md-4' className='col-extra'></MDBCol>
 
                 <MDBCol size='md-4' className='col-skill'>
                     <div className="titleEducation">

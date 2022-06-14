@@ -19,11 +19,11 @@
 .educationCard {
     border-radius: 20px;
     width: 380px;
-    box-shadow: 5px 5px 5px lightgray;
+    box-shadow: 5px 5px 5px #5476B9; 
     border-color: #FFF;
     margin: 0 auto; /* Added */
     float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+    margin-bottom: 20px; /* Added */
     align-items: center;
 }
 
@@ -91,4 +91,13 @@
 
 .col-skill {
     align-content: center;
+}
+
+.col-education {
+    margin-bottom: 15%;
+}
+
+.col-extra {
+    padding: 0px;
+    margin: 0px;
 }
