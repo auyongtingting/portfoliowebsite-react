@@ -34,28 +34,28 @@ const Mailer = () => {
     <div id="contact" className="contactMeSection">
       <div className="SectionTitle">
           <ion-icon name="logo-wechat" color="white"></ion-icon>
-          <span className="contactMeTitle">Contact Me</span>
+          <span className="contactMeTitle">Contact Me!</span>
       </div>
 
       <Form className="contactmeForm" onSubmit={sendEmail}>
         <Form.Group className="nameField mb-3" controlId="formBasicName">
           <Form.Label className="fieldName">Name</Form.Label>
-          <Form.Control type="text" name="name" placeholder="Please enter your name" value={name} onChange={event => setName(event.target.value)}/>
+          <Form.Control type="text" name="name" placeholder="Please enter your name" value={name} onChange={event => setName(event.target.value)} required/>
         </Form.Group>
 
         <Form.Group className="emailField mb-3" controlId="formBasicEmail">
           <Form.Label className="fieldName">Email</Form.Label>
-          <Form.Control type="email" name="user_email" placeholder="Please enter your email" value={email} onChange={event => setEmail(event.target.value)} />
+          <Form.Control type="email" name="user_email" placeholder="Please enter your email" value={email} onChange={event => setEmail(event.target.value)} required/>
         </Form.Group>
 
         <Form.Group className="subjectField nameField mb-3" controlId="formBasicSubject">
           <Form.Label className="fieldName">Subject</Form.Label>
-          <Form.Control type="text" name="subject" placeholder="Please enter the subject" value={subject} onChange={event => setSubject(event.target.value)}/>
+          <Form.Control type="text" name="subject" placeholder="Please enter the subject" value={subject} onChange={event => setSubject(event.target.value)} required/>
         </Form.Group>
 
         <div class="form-group">
           <label for="exampleFormControlTextarea1" className="fieldName" >Message</label>
-          <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="4" placeholder="Please enter your message" value={message} onChange={event => setMessage(event.target.value)}></textarea>
+          <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="4" placeholder="Please enter your message" value={message} onChange={event => setMessage(event.target.value)} required></textarea>
         </div>
 
         <Button className="contactBtn" variant="primary" type="submit" value="send">

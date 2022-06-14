@@ -79,15 +79,12 @@
 
 .skillStack {
     font-size: 16px;
+    vertical-align: 2px;
 }
 
 .rowExperience {
     justify-content: center;
 }
-
-/* .test {
-    background-color: pink;
-} */
 
 .col-skill {
     align-content: center;
@@ -100,4 +97,8 @@
 .col-extra {
     padding: 0px;
     margin: 0px;
+}
+
+.techAlignment {
+    vertical-align: -1px;
 }

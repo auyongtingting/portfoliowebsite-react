@@ -3,7 +3,12 @@ import { MDBCol, MDBRow, MDBContainer } from 'mdb-react-ui-kit'
 import { Card } from "react-bootstrap"
 
 import {GiGraduateCap, GiDiploma} from "react-icons/gi"
-import {FaGithub, Falinkedin, FaHtml5, FaStripeS, FaBootstrap, FaAws, FaNodeJs, FaReact, FaDocker, FaPython, FaJoomla} from "react-icons/fa"
+import {FaGithub, Falinkedin, FaHtml5, FaStripeS, FaBootstrap, FaAws, FaNodeJs, FaReact, FaDocker, FaPython, FaJoomla, FaGit} from "react-icons/fa"
+import {SiAdobephotoshop, SiCss3, SiPhp, SiMongodb, SiJavascript, SiPostgresql, SiKubernetes, SiJira, SiRstudio} from "react-icons/si"
+import {IoLogoWordpress} from "react-icons/io"
+import {GrMysql} from "react-icons/gr"
+import {FiGitlab} from 'react-icons/fi'
+import {CgFigma} from 'react-icons/cg'
 
 // styling
 import "../styles/education.css"
@@ -13,7 +18,7 @@ export default function Education() {
   return (
     <div id = "education" className = "educationSection">
         
-        <MDBContainer className="test">
+        <MDBContainer>
             <MDBRow className="rowExperience">
                 <MDBCol size='md-4' className='col-education'>
                     <Card.Title>
@@ -67,62 +72,65 @@ export default function Education() {
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1em" /> CSS
+                                    <SiCss3 color="white" fontSize="1em" /> CSS
                                 </span>
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1em" /> Bootstrap
+                                    <FaBootstrap color="white" fontSize="1em" /> 
+                                    <span className="techAlignment"> Bootstrap</span>
                                 </span>
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1em" /> React
+                                    <FaReact color="white" fontSize="1em" /> React
                                 </span>
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1em" /> Figma
+                                    <CgFigma color="white" fontSize="1em" /> Figma
                                 </span>
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1em" /> PHP
+                                    <SiPhp color="white" fontSize="1em" /> PHP
                                 </span>
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1em" /> JavaScript
+                                    <SiJavascript color="white" fontSize="1em" /> 
+                                    <span className="techAlignment"> JavaScript</span>
                                 </span>
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1em" /> Python
+                                    <FaPython color="white" fontSize="1em" /> Python
                                 </span>
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1em" /> R
+                                    <SiRstudio color="white" fontSize="1em" /> R
                                 </span>
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1em" /> MySQL
+                                    <SiPostgresql color="white" fontSize="1em" /> MySQL
                                 </span>
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1em" /> GitHub
+                                    <FaGithub color="white" fontSize="1em" /> 
+                                    <span className="techAlignment"> GitHub</span>
                                 </span>
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1em" /> GitLab
+                                    <FiGitlab color="white" fontSize="1em" /> GitLab
                                 </span>
                             </div>
                             <div class="techbox-content" className="techbox-content">
                                 <span className="skillStack">
-                                    <FaHtml5 color="white" fontSize="1em" /> Jira
+                                    <SiJira color="white" fontSize="1em" /> Jira
                                 </span>
                             </div>
                         </Card.Body>
