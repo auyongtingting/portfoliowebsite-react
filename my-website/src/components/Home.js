@@ -8,7 +8,7 @@ import "../styles/home.css"
 // materials 
 import DownloadButton from '../components/resumeBtn.js'
 import profilePicture from '../images/profilepic.jpeg'
-import pdf from '../resume/AuYongTingTing_Resume.pdf'
+import pdf from '../resume/AuYongTingTing_Resume2.pdf'
 
 //icons
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
