@@ -1,0 +1,13 @@
+.footerSection {
+    background-color: #5476B9; 
+}
+
+.footerText {
+    color: #FFF;
+    font-size: 25px;
+    vertical-align: -4px;
+}
+
+.footerContent {
+    margin-left: 5%;
+}

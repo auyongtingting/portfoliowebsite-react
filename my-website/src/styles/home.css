@@ -143,12 +143,9 @@ ul.checkmark li:after {
 
 h1, h2 {
     font-weight: bold;
+    font-size: 30px;
 }
 
 h2 {
     color: #415f9a;
-}
-
-h1 {
-    font-size: 30px;
 }
