@@ -12,6 +12,7 @@ import pdf from '../resume/AuYongTingTing_Resume2.pdf'
 
 //icons
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import {AiFillSmile} from 'react-icons/ai'
 
 export default function Home() {
 
@@ -29,13 +30,15 @@ export default function Home() {
                 </MDBCol>
                 <MDBCol size='md' className='col-example'>
                     <div class="text">
-                    <h1>Hi, I'm Au Yong Ting Ting!</h1>
-                    <h2>A Software Engineer</h2>
-                    <DownloadButton className="button"><a className="downloadResume" href={pdf} download="Resume.pdf">Download Resume</a></DownloadButton>
-                    <ul>
-                        <li className="IntroductionIcons"><FaLinkedin color="#5476B9" fontSize="1.5em"  onClick={()=>openInNewTab("https://www.linkedin.com/in/auyongtingting/")}/></li>
-                        <li className="IntroductionIcons"><FaGithub color="#5476B9" fontSize="1.5em" onClick={()=>openInNewTab("https://github.com/auyongtingting")}/></li>
-                    </ul>             
+                        <h1>Hi!
+                        <span className="logoSmile"><AiFillSmile color="#5476B9" fontSize="1em" /></span>
+                        <br></br>I'm Au Yong Ting Ting!</h1>
+                        <h2>A Software Engineer</h2>
+                        <DownloadButton className="button"><a className="downloadResume" href={pdf} download="Resume.pdf">Download Resume</a></DownloadButton>
+                        <ul>
+                            <li className="IntroductionIcons"><FaLinkedin color="#5476B9" fontSize="1.5em"  onClick={()=>openInNewTab("https://www.linkedin.com/in/auyongtingting/")}/></li>
+                            <li className="IntroductionIcons"><FaGithub color="#5476B9" fontSize="1.5em" onClick={()=>openInNewTab("https://github.com/auyongtingting")}/></li>
+                        </ul>
                     </div>
                 </MDBCol>
             </MDBRow>
